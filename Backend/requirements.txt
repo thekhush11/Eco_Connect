@@ -1,0 +1,7 @@
+flask
+werkzeug
+pillow
+numpy
+tensorflow-cpu   # or `tensorflow` if you have GPU and supported OS
+gunicorn
+opencv-python

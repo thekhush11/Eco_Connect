@@ -1,0 +1,49 @@
+/*
+  New Eco Connect Theme Palette
+  Primary: #3A987D (Deep Forest Green/Teal), Secondary: #FFD166 (Soft Gold/Yellow)
+  Background: #F8FAF8, Text: #2C3E50
+*/
+.project-body {
+    font-family: Inter, "Noto Sans", sans-serif;
+    background-color: #F8FAF8;
+    color: #2C3E50;
+}
+
+.main-accent {
+    color: #3A987D;
+}
+
+.bg-main-accent {
+    background-color: #3A987D;
+    color: #F8FAF8;
+}
+
+.bg-action-secondary {
+    background-color: #FFD166;
+    color: #2C3E50;
+}
+
+/* --- Feedback Page Specific Styles --- */
+.material-symbols-outlined {
+    /* Styles needed for Material Icons */
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    font-size: 24px;
+}
+.rating-star {
+    cursor: pointer;
+    transition: color 0.2s, text-shadow 0.2s;
+}
+.rating-star:hover, .rating-star.glow {
+    color: #FFD166; /* Secondary color for glow */
+    text-shadow: 0 0 5px rgba(255, 209, 102, 0.7);
+}
+
+/* Fixes for Upload Page */
+#drop-zone {
+    border: 2px dashed #3A987D;
+    transition: background-color 0.2s ease;
+    background-color: white;
+}
+#drop-zone.drag-over {
+    background-color: #e6f7f2;
+}
